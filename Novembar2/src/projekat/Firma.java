@@ -57,7 +57,7 @@ public class Firma {
 	 */
 	public void ispisInventaraUIstojProstoriji(String prostorija) {
 
-		Utils.ispisHeaderaInventaraProstorije();
+		Utils.ispisHeaderaInventara();
 
 		for (Inventar inventar : this.mapaInventara.values()) {
 			if(inventar.getProstorija().equalsIgnoreCase(prostorija)) {
@@ -71,7 +71,7 @@ public class Firma {
 	 */
 	public void ispisInventaraIstogNaziva(String naziv) {
 
-		Utils.ispisHeaderaInventaraIstogNaziva();
+		Utils.ispisHeaderaInventara();
 
 		for (Inventar inventar : this.mapaInventara.values()) {
 			if(inventar.getIme().equalsIgnoreCase(naziv)) {
@@ -86,7 +86,7 @@ public class Firma {
 	 */
 	public void ispisInventaraDodatniParametri(String prostorija, String osoba, int zadataGodinaProizvodnje) {
 
-		Utils.ispisHeaderaProstorijaOsobaGodina();
+		Utils.ispisHeaderaInventara();
 
 		for (Inventar inventar : this.mapaInventara.values()) {
 			if(		inventar.getProstorija().equalsIgnoreCase(prostorija) &&
