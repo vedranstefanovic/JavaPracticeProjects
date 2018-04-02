@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class Test {
-
+	//nisam menjao nacin na koji se pozivaju metode u Firma klasi, tako da bi ovde sve trebalo i dalje da radi
 	public static Scanner scanner = new Scanner(System.in);
 
 	public static boolean proveriDatum(String datum) {
