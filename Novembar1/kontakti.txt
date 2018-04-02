@@ -1,0 +1,4 @@
+1;Milan;Stojkov;asistent;PC1;200
+2;Bojana;Zoranovic;asistent;PC4;202
+3;Goran;Sladic;profesor;JUGO214;300
+4;Stevan;Gostojic;profesor;JUGO214;301
